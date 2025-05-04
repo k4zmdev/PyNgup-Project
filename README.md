@@ -8,6 +8,6 @@
 
 
 
-# COMING SOON : J - 1 
+# COMING SOON :
 ---
-## Today
+## J - 2
