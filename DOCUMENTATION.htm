@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ngup Documentation</title>
+    <style>
+        body {
+            font-family: 'Consolas', 'Courier New', monospace;
+            background-color: #f5f5f5;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #306998;
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header img {
+            width: 100px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-top: 10px;
+        }
+
+        section {
+            margin: 40px auto;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 80%;
+        }
+
+        h2 {
+            font-size: 30px;
+            color: #306998;
+            margin-bottom: 10px;
+        }
+
+        h3 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        pre {
+            background-color: #f0f0f0;
+            padding: 10px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #306998;
+            color: white;
+        }
+
+        a {
+            color: #306998;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="asset/python_logo.png" alt="Python Logo">
+        <h1>Ngup Documentation</h1>
+        <p>Your Python tool to analyze file hashes and check for malicious activity.</p>
+    </header>
+
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>Ngup is a Python tool that allows you to retrieve file hashes, extract detailed file information, and check if a hash is associated with malicious activity. This tool is built to run with Python 3.12.x and provides a simple interface for users and developers.</p>
+    </section>
+
+    <section id="installation">
+        <h2>Installation</h2>
+        <h3>Pre-requisites</h3>
+        <p>Ensure that Python 3.12.x or later is installed on your system. You can download it from the official Python website: <a href="https://www.python.org/downloads/" target="_blank">python.org</a>.</p>
+        
+        <h3>Installing Ngup</h3>
+        <ol>
+            <li>First, install <a href="https://python-poetry.org/" target="_blank">Poetry</a> (Python dependency manager):</li>
+            <pre><code>curl -sSL https://install.python-poetry.org | python3 -</code></pre>
+            <li>Clone the Ngup repository and install its dependencies:</li>
+            <pre><code>git clone https://github.com/your-username/ngup.git
+cd ngup
+poetry install</code></pre>
+        </ol>
+    </section>
+
+    <section id="usage">
+        <h2>Usage</h2>
+        <p>Once Ngup is installed, you can start analyzing file hashes and checking if they are malicious by using the following commands:</p>
+        
+        <h3>Basic Command</h3>
+        <pre><code>poetry run ngup-cli --hash <file-path></code></pre>
+        
+        <h3>Example Command</h3>
+        <p>To retrieve the hash of a file:</p>
+        <pre><code>poetry run ngup-cli --hash /path/to/your/file</code></pre>
+
+        <h3>Check if Hash is Malicious</h3>
+        <p>To check if a hash is malicious:</p>
+        <pre><code>poetry run ngup-cli --check-malicious <hash></code></pre>
+    </section>
+
+    <section id="contributing">
+        <h2>Contributing</h2>
+        <p>If you'd like to contribute to Ngup, follow these steps:</p>
+        <ul>
+            <li>Fork the repository on GitHub.</li>
+            <li>Clone your fork locally and create a new branch:</li>
+            <pre><code>git checkout -b feature-branch</code></pre>
+            <li>Make your changes and run tests:</li>
+            <pre><code>pytest</code></pre>
+            <li>Push your changes and create a pull request to the main repository.</li>
+        </ul>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kazam. All rights reserved.</p>
+    </footer>
+</body>
+</html>
