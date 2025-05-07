@@ -1,8 +1,7 @@
 [tool.poetry]
 name = "ngup"
-version = "0.1.0"
 description = "A Python project for XYZ"
-authors = ["Kazam <kazam.email@example.com>"]
+authors = ["Kazam"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/k4zmdev/PyNgup-Project"
