@@ -47,17 +47,7 @@ if %errorlevel% neq 0 (
     pause
     exit /b
 )
-
-if exist updater.py (
-    echo [+] Launching updater...
-    python src/updater.py
-) else if exist updater.py (
-    echo [+] Launching updater...
-    start updater.py
-) else (
-    echo [!] No updater found. Skipping...
-)
-
+echo Please Run src/updater.py, It is used to ensure that opening the terminal and marking ngup works correctly.
 echo.
 echo [+] Setup complete. Virtual environment is ready in 'venv\'.
 echo [+] To activate it manually later, run: venv\Scripts\activate
