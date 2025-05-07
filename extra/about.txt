@@ -1,0 +1,23 @@
+About PyNgup Project
+
+PyNgup is a Python-based tool designed for hash file analysis and lookup. The project allows users to retrieve file hashes, extract related information, and determine whether a given hash is malicious or not.
+
+Key Features:
+- File hash retrieval and analysis.
+- Cross-referencing hash values with various databases to check for malicious activity.
+- Supports different hash algorithms (MD5, SHA-1, SHA-256, etc.).
+
+Log Information:
+The PyNgup project does not directly log user activities. However, it may generate logs in the form of analysis results, error messages, or other relevant information depending on how the tool is used.
+
+Logging Behavior:
+- The tool generates logs only when explicitly specified by the user (e.g., for error tracking or debugging purposes).
+- Any logs generated are local to the user's machine and are not sent to external servers.
+- Logs may be stored in the `/logs` directory (if created) or a custom directory set by the user.
+
+Privacy Note:
+PyNgup respects user privacy and does not collect any personally identifiable information. The project focuses solely on hash file analysis without tracking user behavior or data.
+
+For more details, please refer to the documentation or the source code available on the official GitHub repository.
+
+GitHub Repository: https://github.com/k4zmdev/PyNgup-Project
