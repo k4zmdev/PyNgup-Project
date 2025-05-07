@@ -1,0 +1,28 @@
+Ngup License Agreement  
+Custom Software License — Project by Kazam  
+© 2025 Kazam — All rights reserved.
+
+1. Ownership  
+Ngup is a software developed and maintained by Kazam.  
+All rights, titles, and interests in the codebase, name, branding, and associated assets belong exclusively to Kazam.
+
+2. Usage Rights  
+You are granted a non-exclusive, non-transferable license to use, study, and modify the Ngup software for personal, educational, or ethical cybersecurity purposes.  
+Commercial use or redistribution is strictly prohibited without prior written consent from Kazam.
+
+3. Restrictions  
+- You must not use this software for illegal activities or to cause harm to others.  
+- You are not allowed to resell, sublicense, or claim ownership of this software or its components.  
+- Removing or modifying the author's credits is not permitted.
+
+4. Liability Disclaimer  
+This software is provided "as is", without warranty of any kind.  
+Kazam shall not be held responsible for any direct or indirect damages resulting from the use or misuse of Ngup.
+
+5. Contributions  
+By contributing to this project (e.g., via pull requests or patches),  
+you agree to assign all rights of your contribution to the project maintainer (Kazam) under the same license terms.
+
+6. Termination  
+This license will terminate automatically if you fail to comply with any of the terms above.  
+Upon termination, you must stop all use of the software and delete all copies.
