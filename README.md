@@ -36,7 +36,7 @@ To get started with **PyNgup**, follow these steps:
 To check a file's hash and determine if it is malicious, run the following command:
 
 ```bash
-python pyngup.py --hash <file_hash>
+ngup --get -i "path\to\your\file"
 ````
 
 Where `<file_hash>` is the **MD5**, **SHA-1**, or **SHA-256** hash of the file you want to analyze.
@@ -44,7 +44,7 @@ Where `<file_hash>` is the **MD5**, **SHA-1**, or **SHA-256** hash of the file y
 ### Example:
 
 ```bash
-python pyngup.py --hash 4d186321c1a7f0f354b297e8914ab240
+ngup --hash -t 4d186321c1a7f0f354b297e8914ab240
 ```
 
 This will return the analysis of the provided hash, checking it against known threat databases.
