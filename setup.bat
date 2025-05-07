@@ -50,10 +50,10 @@ if %errorlevel% neq 0 (
 
 if exist updater.py (
     echo [+] Launching updater...
-    python updater.py
-) else if exist updater.exe (
+    python src/updater.py
+) else if exist updater.py (
     echo [+] Launching updater...
-    start updater.exe
+    start updater.py
 ) else (
     echo [!] No updater found. Skipping...
 )
