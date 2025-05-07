@@ -1,0 +1,27 @@
+Project Name : Ngup
+Author       : Kazam
+Version      : 1.0.0
+Language     : Python 3.12.x
+License      : Custom License (see LICENSE.txt)
+
+-----------------------------------------------
+Description :
+Ngup is a powerful Python tool that analyzes files by retrieving their hash values (MD5, SHA1, SHA256) 
+and extracting all available information related to the file. It helps determine if a file is known 
+to be malicious by comparing its hashes against various known threat databases and metadata sources.
+
+-----------------------------------------------
+Main Features :
+- Compute multiple file hash types
+- Lookup hash reputation
+- Display detailed file metadata
+- Check if a file or hash is flagged as malicious
+- CLI-based tool with modular architecture
+- Python 3.12.x compatibility
+
+-----------------------------------------------
+Author Notes :
+
+Thanks to my friends for supporting me in this project. It will probably only get 5 stars at most, but I'm still proud of it. Thank you.
+
+Project lead: Kazam (2025)
