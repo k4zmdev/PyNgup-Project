@@ -25,7 +25,7 @@ def remove_ngup_dir(ngup_dir):
 def remove_from_system_path(ngup_dir):
     if platform.system() == "Windows":
         print_colored_message("[~] Removing ngup folder from system PATH...", Fore.MAGENTA)
-        # Lire la clé actuelle
+       s
         output = subprocess.check_output('reg query "HKCU\\Environment" /v PATH', shell=True).decode(errors='ignore')
         if "PATH" in output:
             current_path = output.split("    ")[-1].strip()
